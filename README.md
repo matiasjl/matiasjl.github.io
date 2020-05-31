@@ -2,7 +2,7 @@
 
 Diseñador multimedia y docente de arte y tecnología. Se desenvuelve en distintas áreas relacionadas al arte digital como programación, sonido, producción y diseño.
 
-Actualmente trabaja como Docente en las cátedras Tecnología Multimedia 1 y 2 de la Facultad de Artes de la Universidad Nacional de La Plata (UNLP). Participó en la producción y montaje de diversas Obras e Instalaciones Interactivas, junto a [Estudio Biopus](http://www.estudiobiopus.com.ar), Colectivo Llamas, Proyecto 032, D.M.T., entre otros colectivos de Artistas Digitales.
+Actualmente trabaja como docente en las cátedras Tecnología Multimedia 1 y 2 de la Facultad de Artes de la Universidad Nacional de La Plata (UNLP). Participó en la producción y montaje de diversas Obras e Instalaciones Interactivas, junto a [Estudio Biopus](http://www.estudiobiopus.com.ar), Colectivo Llamas, Proyecto 032, D.M.T., entre otros colectivos de Artistas Digitales.
 
 ### Markdown
 
@@ -26,5 +26,4 @@ Syntax highlighted code block
 
 ### Contacto
 
-[@redtek](https://t.me/redtek)
-[matias.jl@gmail.com](mail:matias.jl@gmail.com)
+[@redtek](https://t.me/redtek) | [matias.jl@gmail.com](mail:matias.jl@gmail.com)
