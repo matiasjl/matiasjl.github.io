@@ -4,11 +4,12 @@ Diseñador multimedia y docente de arte y tecnología. Se desenvuelve en distint
 
 Actualmente trabaja como docente en las cátedras Tecnología Multimedia 1 y 2 de la Facultad de Artes de la Universidad Nacional de La Plata (UNLP). Participó en la producción y montaje de diversas Obras e Instalaciones Interactivas, junto a [Estudio Biopus](http://www.estudiobiopus.com.ar), Colectivo Llamas, Proyecto 032, D.M.T., entre otros colectivos de Artistas Digitales.
 
+
 ## Colaboraciones Artísticas
 
 ### 2019 | Los Anillos de la Serpiente & Uturunku
-![location](/images/location.png) [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/)
-![team](/images/team.png) [Biopus](http://www.estudiobiopus.com.ar/estudio/)
+
+@[Biopus](http://www.estudiobiopus.com.ar/estudio/) en [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/)</br>
 Dirección de montaje y control de iluminación para instalación interactiva. [+info.](http://www.estudiobiopus.com.ar/estudio/serpiente.html)
 
 ### 2018 | Peces Raros DJ Set
