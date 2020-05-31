@@ -8,7 +8,9 @@ body{
   color: white;
 }
 h1{
-  color: white;
+  //color: white;
+  background-color: red;
+  color: black;
 }
 h2, h3{
   color: silver;
@@ -26,17 +28,17 @@ a:active {
 }
 #contenido a{
   font-weight: bold;
-  background-color: red;
+  background-color: white;
   color: black;
 }
 #contenido a:hover{
   font-weight: bold;
-  background-color: white;
+  background-color: red;
   color: black;
 }
 #contenido a:active{
   font-weight: bold;
-  background-color: white;
+  background-color: red;
   color: black;
 }
 .imgColaboraciones{
