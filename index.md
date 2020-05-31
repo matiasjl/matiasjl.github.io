@@ -1,4 +1,4 @@
-## Matias Jauregui Lorda
+# Matias Jauregui Lorda
 
 **Diseñador multimedia y docente de arte y tecnología.** Se desenvuelve en distintas áreas relacionadas al arte digital como programación, sonido, producción y diseño. Gran vocación por el trabajo en equipo interdisciplinario.
 
