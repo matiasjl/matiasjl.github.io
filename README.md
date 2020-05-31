@@ -23,7 +23,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-### Contacto
-
-[@redtek](https://t.me/redtek) | [matias.jl@gmail.com](mail:matias.jl@gmail.com)
