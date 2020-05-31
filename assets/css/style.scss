@@ -4,13 +4,11 @@
 @import "{{ site.theme }}";
 
 body{
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 h1{
   color: white;
-  background-color: red;
-  color: black;
 }
 h2, h3{
   color: silver;
@@ -25,10 +23,6 @@ a:hover {
 a:active {
   background-color: red;
   color: black;
-}
-#contenido{
-  background-color: black;
-  color: white;
 }
 #contenido h1{
   background-color: red;
