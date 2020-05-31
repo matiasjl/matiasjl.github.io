@@ -19,8 +19,7 @@ Actualmente trabaja como docente en las cátedras Tecnología Multimedia 1 y 2 d
 > [Biopus](http://www.estudiobiopus.com.ar/estudio/) en [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/) | Construcción de sensores y programación de iluminación para instalación interactiva. [+info.](http://www.estudiobiopus.com.ar/estudio/uturunku.html)
 
 ### 2017 | 01010010 01000101 01000001
-@[Proyecto REA](https://www.instagram.com/proyectorea/) en [Espacio Nazca](https://www.facebook.com/nazcaespacio/)
-> Diseño y ejecución de DJ Set para cierre de exposición artística. [+info.](https://www.facebook.com/rea.proyecto/videos/193827411517002/)
+[Proyecto REA](https://www.instagram.com/proyectorea/) en [Espacio Nazca](https://www.facebook.com/nazcaespacio/) | Diseño y ejecución de DJ Set para cierre de exposición artística. [+info.](https://www.facebook.com/rea.proyecto/videos/193827411517002/)
 
 ### 2015 | Tripper
 @[D.M.T.](https://www.facebook.com/DynamicAndModernTrip/) en [Teatro Opera](https://www.facebook.com/operalaplata/)
