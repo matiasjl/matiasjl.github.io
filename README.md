@@ -9,16 +9,14 @@ Actualmente trabaja como docente en las cátedras Tecnología Multimedia 1 y 2 d
 
 ### 2019 | Los Anillos de la Serpiente & Uturunku
 
-@[Biopus](http://www.estudiobiopus.com.ar/estudio/) en [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/)
+> [Biopus](http://www.estudiobiopus.com.ar/estudio/) en [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/)
 > Dirección de montaje y control de iluminación para instalación interactiva. [+info.](http://www.estudiobiopus.com.ar/estudio/serpiente.html)
 
 ### 2018 | Peces Raros DJ Set
-@[D.M.T.](https://www.facebook.com/DynamicAndModernTrip/) & @[Peces Raros](https://www.facebook.com/peces/) en [MOOD](https://www.facebook.com/moodlaplata/)
-> Diseño escenográfico y operación de iluminación en fiesta electrónica.
+> [D.M.T.](https://www.facebook.com/DynamicAndModernTrip/) & @[Peces Raros](https://www.facebook.com/peces/) en [MOOD](https://www.facebook.com/moodlaplata/): Diseño escenográfico y operación de iluminación en fiesta electrónica.
 
 ### 2017 | Uturunku
-@[Biopus](http://www.estudiobiopus.com.ar/estudio/) en [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/)
-> Construcción de sensores y programación de iluminación para instalación interactiva. [+info.](http://www.estudiobiopus.com.ar/estudio/uturunku.html)
+> [Biopus](http://www.estudiobiopus.com.ar/estudio/) en [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/) | Construcción de sensores y programación de iluminación para instalación interactiva. [+info.](http://www.estudiobiopus.com.ar/estudio/uturunku.html)
 
 ### 2017 | 01010010 01000101 01000001
 @[Proyecto REA](https://www.instagram.com/proyectorea/) en [Espacio Nazca](https://www.facebook.com/nazcaespacio/)
