@@ -26,6 +26,18 @@ a:active {
 }
 #contenido a{
   font-weight: bold;
+  background-color: red;
+  color: black;
+}
+#contenido a:hover{
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
+#contenido a:active{
+  font-weight: bold;
+  background-color: white;
+  color: black;
 }
 .imgColaboraciones{
   width: 100%;
