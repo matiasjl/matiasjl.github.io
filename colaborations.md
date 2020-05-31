@@ -1,4 +1,4 @@
-## Colaboraciones Artísticas
+# Colaboraciones Artísticas
 
 ### 2019 | Los Anillos de la Serpiente & Uturunku
 
