@@ -16,7 +16,7 @@
 
 <img class="imgColaboraciones" src="/portfolio/images/colaboraciones/uturunku.jpg" alt="uturunku">
 ### 2017 | Uturunku
-> [Biopus](http://www.estudiobiopus.com.ar/estudio/) en [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/).
+> [Biopus](http://www.estudiobiopus.com.ar/estudio/) en [El Cultural San Martín](http://www.elculturalsanmartin.org).
 > Construcción de sensores y programación de iluminación para instalación interactiva. [+info.](http://www.estudiobiopus.com.ar/estudio/uturunku.html)
 
 * * *
