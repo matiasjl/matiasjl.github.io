@@ -1,3 +1,3 @@
-## Portfolio personal académico y artístico
-### Matias Jauregui Lorda
+## Matias Jauregui Lorda | JL
+### Portfolio académico y artístico
 #### Mayo 2020
