@@ -1,6 +1,7 @@
 # Colaboraciones Artísticas
 
 <div class="imgCol">![serpiente](/images/colaboraciones/serpiente.jpg)</div>
+![serpiente](/images/colaboraciones/serpiente.jpg)
 ### 2019 | Los Anillos de la Serpiente & Uturunku
 > [Biopus](http://www.estudiobiopus.com.ar/estudio/) en [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/). 
 > Dirección de montaje y control de iluminación para instalación interactiva. [+info.](http://www.estudiobiopus.com.ar/estudio/serpiente.html)
