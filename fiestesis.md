@@ -1,3 +1,3 @@
-# Sizigia (Tesina de grado)
-
+# Sizigia
+### Tesina de Diseño Multimedial
 *Página en construcción.*
