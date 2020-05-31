@@ -32,7 +32,7 @@ Programación y montaje de videojuego instalativo. [+info.](http://www.estudiobi
 ### 2015 | Unidad Móvil de Promoción de Derechos
 ![location](/images/location.png) [Teatro Opera](https://www.facebook.com/operalaplata/)
 ![team](/images/team.png) [Colectivo Llamas]() & [S.U.T.E.B.A.](https://www.suteba.org.ar/)
-Dirección, producción, sonido y montaje de instalación interactiva móvil.
+Dirección, producción, sonido y montaje de instalación interactiva móvil. [+info](https://vimeo.com/284396845) [+info2.](https://vimeo.com/284761445)
 
 ### 2014 | Rey de las nubes
 ![location](/images/location.png) [Jujuy](http://www.turismo.jujuy.gov.ar/)
@@ -47,4 +47,4 @@ Registro sonoro y asistencia de producción en cortometraje audiovisual para chi
 ### 2012 | Osedax
 ![location](/images/location.png) [CCGSM](http://www.elculturalsanmartin.org/) + [Itsasmuseum](https://www.itsasmuseum.eus/) + [MAR](https://www.gba.gob.ar/museomar)
 ![team](/images/team.png) [Biopus](http://www.estudiobiopus.com.ar/estudio/)
-Producción de escultura inflable para instalación interactiva.
+Producción de escultura inflable para instalación interactiva. [+info](http://www.estudiobiopus.com.ar/estudio/osedax.html)
