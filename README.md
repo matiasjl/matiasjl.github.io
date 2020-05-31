@@ -33,7 +33,7 @@ Actualmente trabaja como docente en las cátedras Tecnología Multimedia 1 y 2 d
 >Programación y montaje de videojuego instalativo. [+info.](http://www.estudiobiopus.com.ar/estudio/melodia_escondida.html)
 
 ### 2015 | Unidad Móvil de Promoción de Derechos
->[Colectivo Llamas]() & @[S.U.T.E.B.A.](https://www.suteba.org.ar/).
+>[Colectivo Llamas]() & [S.U.T.E.B.A.](https://www.suteba.org.ar/).
 >Dirección, producción, sonido y montaje de instalación interactiva móvil. [+info](https://vimeo.com/284396845) [+info2.](https://vimeo.com/284761445)
 
 ### 2014 | Rey de las nubes
@@ -41,7 +41,7 @@ Actualmente trabaja como docente en las cátedras Tecnología Multimedia 1 y 2 d
 >Registro sonoro en largometraje documental. [+info.](http://www.selectplay.laplata.gov.ar/catalogo/rey-de-las-nubes)
 
 ### 2013 | En busca de Kupurí Kushe
->[Tios del curro]() & @[INCAA](http://www.incaa.gov.ar/) en [Reserva Provincial Parque Luro](https://turismo.lapampa.gob.ar/index.php/reserva-provincial-parque-luro).
+>[Tios del curro]() & [INCAA](http://www.incaa.gov.ar/) en [Reserva Provincial Parque Luro](https://turismo.lapampa.gob.ar/index.php/reserva-provincial-parque-luro).
 >Registro sonoro y asistencia de producción en cortometraje audiovisual para chicos. [+info.](https://www.youtube.com/watch?v=LCUgZPifyto)
 
 ### 2012 | Osedax
