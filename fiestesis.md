@@ -2,8 +2,7 @@
 ### Tesina de Diseño Multimedial, FdA UNLP 2019.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/446297363?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-
+<br>
 Sizigia es una instalación interactiva que invita al público a bailar y escuchar sin sentido, de manera lúdica y explorativa, perdiéndose en un espacio abstracto y tiempo infinito pero con guía: el ritmo musical. Mediante el movimiento corporal colectivo, medido por la agitación de sus teléfonos celulares entendidos como prótesis, los interactores modifican el entorno: la música se enriquece, el espacio se ilumina. La Obra busca generar en el público una sensación de felicidad plena, de diversión y fuera de regla, en una experiencia que se presenta como un ritual tribal contemporáneo.
 
 Sizigia proviene del griego συζυγία que significa *reunión,* y en astronomía es una situación cuando tres astros o más están alineados. Cuando sucede entre el Sol, la Tierra y la Luna, tiene un efecto sobre las mareas oceánicas: las fuerzas de atracción gravitacional producen las pleamares de mayor valor e intensidad, un fenómeno de máxima plenitud como lo es el *sentimiento oceánico,* concepto freudiano que atraviesa la Obra.
