@@ -3,14 +3,14 @@
 <img class="imgColaboraciones" src="/images/colaboraciones/serpiente.jpg" alt="serpiente">
 ### 2019 | Los Anillos de la Serpiente & Uturunku
 > [Biopus](http://www.estudiobiopus.com.ar/estudio/) en [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/).
-Dirección de montaje y control de iluminación para instalación interactiva. [+info.](http://www.estudiobiopus.com.ar/estudio/serpiente.html)
+<br> Dirección de montaje y control de iluminación para instalación interactiva. [+info.](http://www.estudiobiopus.com.ar/estudio/serpiente.html)
 
 * * *
 
 <img class="imgColaboraciones" src="/images/colaboraciones/peces.jpg" alt="peces">
 ### 2018 | Peces Raros DJ Set
 > [D.M.T.](https://www.facebook.com/DynamicAndModernTrip/) & [Peces Raros](https://www.facebook.com/peces/) en [MOOD](https://www.facebook.com/moodlaplata/).
-###### Diseño escenográfico y operación de iluminación en fiesta electrónica.
+<br> Diseño escenográfico y operación de iluminación en fiesta electrónica.
 
 * * *
 
