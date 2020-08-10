@@ -1,3 +1,10 @@
 # Sizigia
-### Tesina de Diseño Multimedial, Fda UNLP 2019.
-*Página en construcción.*
+### Tesina de Diseño Multimedial, FdA UNLP 2019.
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/446297363?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+Sizigia es una instalación interactiva que invita al público a bailar y escuchar sin sentido, de manera lúdica y explorativa, perdiéndose en un espacio abstracto y tiempo infinito pero con guía: el ritmo musical. Mediante el movimiento corporal colectivo, medido por la agitación de sus teléfonos celulares entendidos como prótesis, los interactores modifican el entorno: la música se enriquece, el espacio se ilumina. La Obra busca generar en el público una sensación de felicidad plena, de diversión y fuera de regla, en una experiencia que se presenta como un ritual tribal contemporáneo.
+Sizigia proviene del griego συζυγία que significa *reunión,* y en astronomía es una situación cuando tres astros o más están alineados. Cuando sucede entre el Sol, la Tierra y la Luna, tiene un efecto sobre las mareas oceánicas: las fuerzas de atracción gravitacional producen las pleamares de mayor valor e intensidad, un fenómeno de máxima plenitud como lo es el *sentimiento oceánico,* concepto freudiano que atraviesa la Obra.
+Al ingresar, el grupo de máximo 8 usuarios, que previamente descargaron la aplicación Tramontana en sus teléfonos celulares y se conectaron a la red WiFi denominada “ENTER2TRANCE”, se encuentra con una sala en penumbras con luz ultravioleta y melodías de bajas frecuencias que inundan la habitación. Mediante el recorrido del espacio y movimiento de sus cuerpos, sensado por la operación de *agitar* sus dispositivos móviles, el entorno cobra vida: las luces se vuelven blancas estroboscópicas y el ritmo escondido tras un filtro pasabajos hace su aparición; las pantallas de los celulares elevan el brillo al máximo y sus linternas parpadean. El groove resultante funciona como feedback y a la vez retroalimenta la operación de agitar, bailar y jugar por parte del público, acción colectiva que mantiene encendida la instalación.
+
+*Próximamente link a investigación teórica que dio origen a la Obra*
