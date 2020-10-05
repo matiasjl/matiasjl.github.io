@@ -5,8 +5,8 @@ class Carga {
   constructor(){
 
     //campo de texto
-    //input = createInput("Escriba o pegue su consigna aquí.", TEXT);
-    input = createInput("", TEXT);
+    input = createInput("Escriba o pegue la consigna aquí.", TEXT);
+    //input = createInput("", TEXT);
     //this.input.size(w-100, 300);
     input.size(w-100, 30);
     input.show();
@@ -22,13 +22,11 @@ class Carga {
   }
 
   cargar(){ //por alguna razon esta funcion funciona como global, no de la clase carga. ¿sea que la linea 18 la pre-carga?
-    //TEST boton --
-    //cCeleste1 = color(255, random(255), 0);
 
     //1) guardo contenido del input en mi arreglo
     let aux = input.value();
     consigna[n] = aux;
-    print( n + " load: " + consigna[n] );
+    //print( n + " load: " + consigna[n] );
 
     //2) paso siguiente id
     //c++;  //--> aumento infinito de consignas? PENSAR SI SE JUSTIFICA
@@ -37,7 +35,6 @@ class Carga {
     }else{
       n = 0;  //--> resetear
     }
-    print( n + " / " + "consigna actual en edicion" );
 
     //--> MUESTRO EN CAMPO DE TEXTO EL CONTENIDO DEL ARREGLO
     input.value(consigna[n]);
@@ -55,8 +52,6 @@ class Carga {
     //posiciones y tamanios líquidos --> capaz mas que draw()deberia ir en window.onresize
     input.position(window.innerWidth/2-w/2 + 50, 250);
     input.size(w-100, 30);
-    //this.button.position(window.innerWidth/2-25, 580);
-    //this.button.position(window.innerWidth/2-60, 300);
     this.button.position(window.innerWidth/2-w/2 + 50, 300);
 
     //muestro números de las consignas cargadas (para botonera)
@@ -92,7 +87,6 @@ class Carga {
   }
 
   mousePressed(){
-    print( "clic" );
     for (let i = 0; i < c; i++) {
       if( dist(200 + (i * 30), 310, mouseX, mouseY) < 15 ){
         n = i;

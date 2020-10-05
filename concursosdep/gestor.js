@@ -26,8 +26,6 @@ class Gestor {
     }else if( this.pantalla == "grilla" ){
 
     }
-
-
   }
 
   display(){
@@ -68,7 +66,8 @@ class Gestor {
   }
 
   keys(){
-    //capaz podría ser TAB que mueva entre pantallas
+    //CAMBIO ENTRE PANTALLAS CON NÚMEROS  --> OLD BORRAR
+    /*
     if( key == '1' ){
       this.carga.display(true);
       this.pantalla = "carga";
@@ -78,14 +77,33 @@ class Gestor {
     }else if( key == '3' ){
       this.carga.display(false);
       this.pantalla = "grilla";
-    }else if( key == 'm' || key == 'M' ){
+    }
+    */
+    /*  //era para visualizar numeros pero mepa que chau
+    else if( key == 'm' || key == 'M' ){
       this.gui = !this.gui;
+    }
+    */
+
+    //'M' mueve entre pantallas
+    if( key == 'm' || key == 'M' ){
+      if( this.pantalla == "carga" ){
+        this.carga.display(false);
+        this.pantalla = "random";
+      }else if( this.pantalla == "random" ){
+        this.carga.display(false);
+        this.pantalla = "grilla";
+      }else if( this.pantalla == "grilla" ){
+        this.carga.display(true);
+        this.pantalla = "carga";
+      }
     }
 
   }
 
   mousePressed(){
-    //eventos del gestor: cambio de pantallas
+    //eventos del gestor: cambio de pantallas --> OLD BORRAR
+    /*
     if( this.gui ){
       if( dist(w/2-50, 200, mouseX, mouseY) < 15 ){
         this.carga.display(true);
@@ -98,6 +116,7 @@ class Gestor {
         this.pantalla = "grilla";
       }
     }
+    */
 
     //eventos propios de los objetos ~ pantallas
     if( this.pantalla == "carga" )

@@ -6,7 +6,7 @@ class Sobre {
   constructor(ID_, t_) {
     this.x = 0;
     this.y = 0;
-    this.ID = ID_ + 1; // evaluar si sumar en valor o en visualización (metodo display)
+    this.ID = ID_;  //comienza en 0, suma 1 en display()
     this.t = t_;
     this.relleno = cGris;
     this.adentro = false;
@@ -60,8 +60,9 @@ class Sobre {
 
   mousePressed() {
     if (mouseX > this.x - (this.t * 1.5) / 2 && mouseX < this.x + (this.t * 1.5) / 2 && mouseY > this.y - this.t / 2 && mouseY < this.y + this.t / 2) {
-      g.nSobre = this.ID;
-      g.estado = "sobre";
+      //print("clic sobre sobre: " + this.ID);
+      g.grilla.nSobre = this.ID;
+      g.grilla.estado = "sobre";
     }
   }
 
@@ -76,7 +77,7 @@ class Sobre {
     line(this.x, this.y, this.x + this.t / 2 * 1.5, this.y - this.t / 2);
     textSize(24);
     textAlign(CENTER);
-    text("#" + this.ID, this.x, this.y + this.t / 4);
+    text("#" + (this.ID + 1), this.x, this.y + this.t / 4); //sumo 1 a ID que comienza en 0
     pop();
   }
 

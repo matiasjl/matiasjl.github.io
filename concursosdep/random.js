@@ -1,3 +1,4 @@
+let nRandom = [0, 1, 2, 3, 4, 5, 6, 7, 8 ];
 
 class Random {
 
@@ -9,7 +10,7 @@ class Random {
 
       //feedback: propiedades
       this.texto = "¡LISTO!";
-      this.opacidad = 255;
+      this.opacidad = 0;
 
     }
 
@@ -17,6 +18,10 @@ class Random {
       //aquí sucede la magia: reordeno consignas entre sobres
       //--tengo que pensarlo... pero serian dos arreglos cruzados
       //--o uno solo: donde indice es sobre y contenido en n consigna
+
+      //solución 5/10: nRandom es un arreglo de indices que desordeno con shufle()
+      nRandom = shuffle(nRandom);
+
     }
 
     update(){
