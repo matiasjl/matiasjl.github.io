@@ -19,3 +19,24 @@ body {
   /* Fondo color celeste institucional */
   background-color: rgb(116, 201, 227);
 }
+button {
+  background-color: rgb(131, 131, 131);
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* tiempo de transición a :hover */
+  /* afecta al posicionamiento x/y liquido, chan! */
+  /* transition-duration: 0.4s; */
+}
+button:hover {
+  background-color: rgb(190, 23, 23);
+  color: black;
+}
+button:active {
+  background-color: black;
+  color: white;
+}

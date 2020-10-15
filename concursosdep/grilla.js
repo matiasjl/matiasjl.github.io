@@ -1,7 +1,7 @@
 class Grilla {
 
-  constructor(c_) {
-    this.c = c_;
+  constructor() {
+    //this.c = c_;  //DESCARTADO: uso variable global 'c' directamenchi
     this.estado = "grilla";
 
     this.pYsobre = 0 ;
@@ -13,14 +13,14 @@ class Grilla {
 
     //arreglo de class Sobre
     this.sobres = [];
-    for (let i = 0; i < this.c; i++) {
+    for (let i = 0; i < c; i++) {
       this.sobres[i] = new Sobre(i, 100);
     }
   }
 
   update() {
     if (this.estado == "grilla") {
-      for (let i = 0; i < this.c; i++) {
+      for (let i = 0; i < c; i++) {
         this.sobres[i].update();
       }
     }
@@ -42,7 +42,7 @@ class Grilla {
 
     }else */
     if (this.estado == "sobre") {
-      this.sobreAbierto(); // verificar como linkear valores --> ¿nSobre en índice consigna?
+      this.sobreAbierto(); // verificar como linkear valores --> ¿nSobre en índice consigna? --> RESUELTO
     }
 
     //this.s.display();
@@ -54,7 +54,7 @@ class Grilla {
 
   mousePressed() {
     if (this.estado == "grilla") {
-      for (let i = 0; i < this.c; i++) {
+      for (let i = 0; i < c; i++) {
         this.sobres[i].mousePressed();
       }
     }else if (this.estado == "sobre") {
@@ -64,21 +64,26 @@ class Grilla {
   }
 
   grilla(){
-    for (let i = 0; i < this.c; i++) {
-      // POS-Y: arreglar... O NO Agh
-      if (i < 3) {
-        //this.y = 300  ;
-        this.sobres[i].updateXY((w / 2 - 200) + i * 200, 300);
-      } else if (i < 6) {
-        //this.y = 300 + (this.t * 1.5);
-        this.sobres[i].updateXY((w / 2 - 200) + (i - 3) * 200, 450);
-      } else if (i < 9) {
-        //this.y = 300 + (this.t * 3);
-        this.sobres[i].updateXY((w / 2 - 200) + (i - 6) * 200, 600);
+    //3 x 3 = 9 sobres
+    if( c == 9 ){
+      for (let x = 0; x < 3; x++) {  //columnas
+        for (let y = 0; y < 3; y++) {  //filas
+          this.sobres[x+(y*3)].updateXY( (w / 2 - 200) + x * 200, 250 + 150*y );
+          this.sobres[x+(y*3)].display();
+        }
       }
-      //this.sobres[i].updateXY();
-      this.sobres[i].display();
     }
+
+    //4 x 3 = 12 sobres
+    if( c == 12 ){
+      for (let x = 0; x < 4; x++) {  //columnas
+        for (let y = 0; y < 3; y++) {  //filas
+          this.sobres[x+(y*4)].updateXY( (w / 2 - 300) + x * 200, 250 + 150*y );
+          this.sobres[x+(y*4)].display();
+        }
+      }
+    }
+
   }
 
   sobreAbierto() { // REVISAR TODAS LAS POSIONES --> !!!!
@@ -112,17 +117,18 @@ class Grilla {
     //rect(w / 2, h / 2, 700, 600 );
     rect(w / 2, h/4*3 - this.pYsobre, 700, 600 );
     fill(0);
-    textSize(24);
-    textAlign(CENTER, CENTER );
+    //numero de consigna en hoja: DESCARTADO
+    //textSize(24);
+    //textAlign(CENTER, CENTER );
     //text("#" + this.nConsigna, w / 2,  h/4*3 - this.pYsobre - 250 ); // --> clave
-    text("#" + (nRandom[this.nSobre]+1), w / 2,  h/4*3 - this.pYsobre - 250 ); // --> clave
+    //text("#" + (nRandom[this.nSobre]+1), w / 2,  h/4*3 - this.pYsobre - 250 ); // --> clave
     textSize(16);
     textAlign(LEFT, TOP);
     //text(textoPrueba, w / 2, h/4*3 - this.pYsobre + 100, 600, 600);  // --> aquí textos consignas
     if( consigna[nRandom[this.nSobre]] == null ){
-      text("[la consigna #" + (nRandom[this.nSobre]+1) + " no se ha cargado]", w / 2, h/4*3 - this.pYsobre + 100, 600, 600);  // --> aquí textos consignas
+      text("[la consigna #" + (nRandom[this.nSobre]+1) + " no se ha cargado]", w / 2, h/4*3 - this.pYsobre + 50, 600, 600);  // --> aquí textos consignas
     }else{
-      text(consigna[nRandom[this.nSobre]], w / 2, h/4*3 - this.pYsobre + 100, 600, 600);  // --> aquí textos consignas
+      text(consigna[nRandom[this.nSobre]], w / 2, h/4*3 - this.pYsobre + 50, 600, 600);  // --> aquí textos consignas
     }
     //sobre (delante)
     fill(cAcento);

@@ -1,7 +1,25 @@
 // VARIABLES GLOBALES CONSIGNAS
 let consigna = [];  //arreglo de consignas
 let n = 0;  //indice del arreglo
-let c = 9;  //cantidad de consignas (PENSAR: ¿incrementae con funcion de boton 'cargar'?)
+let c = 12;  //cantidad de consignas
+let nRandom = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]; //para random.js
+
+/*
+function cantidad( v ){
+  // cantidad de consignas: 9 o 12
+  c = v;
+  // blanqueo arreglos
+  consigna = [];
+  nRandom = [];
+  // reset indice
+  n = 0;
+  // recorro arreglo y asigno valores
+  for( i = 0 ; i < v ; i++){
+    nRandom[i] = i ;
+  }
+  //return "ok";
+}
+*/
 
 class Gestor {
 
@@ -13,7 +31,7 @@ class Gestor {
     //objetos por cada pantalla
     this.carga = new Carga();
     this.random = new Random();
-    this.grilla = new Grilla(c); //asegurarse que sea adaptable (ya hablaron de una version de 12...) --> c
+    this.grilla = new Grilla(); //asegurarse que sea adaptable (ya hablaron de una version de 12...) --> c --> HECHO :D
 
 
   }

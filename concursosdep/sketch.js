@@ -85,7 +85,8 @@ function contenedor(){
   textSize(48);
   textStyle(BOLD);
   text("PRUEBAS DE SELECCIÓN", w / 2, 100);
-  textSize(18);
-  text("DIRECCIÓN PROVINCIAL DE EDUCACIÓN PRIMARIA | DGCyE | 2020", w / 2, 150);
+  textSize(19);
+  //text("DIRECCIÓN PROVINCIAL DE EDUCACIÓN PRIMARIA | DGCyE | 2020", w / 2, 150);
+  text("DIRECCIÓN GENERAL DE CULTURA Y EDUCACIÓN | PBA | 2020", w / 2, 140);
   pop();
 }
