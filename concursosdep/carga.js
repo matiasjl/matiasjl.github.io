@@ -5,27 +5,32 @@ class Carga {
   constructor(){
 
     //campo de texto
-    input = createInput("Escriba o pegue la consigna aquí.", TEXT);
-    //input = createInput("", TEXT);
-    //this.input.size(w-100, 300);
-    input.size(w-100, 30);
+    //input = createInput("Escriba o pegue la consigna aquí.", TEXT);
+    //input.size(w-100, 30);
+    //input.show();
+    //plan b: text area
+    input = createElement('textarea', 'Escriba o pegue la consigna aquí.');
+    input.position(window.innerWidth/2, 300);
+    input.size(w-250, 300);
     input.show();
 
     //boton
     this.button = createButton('Cargar y siguiente');
-    this.button.position(window.innerWidth/2-25, 300);
+    this.button.position(window.innerWidth/2, 300);
     this.button.show();
     this.button.mousePressed(this.cargar);
     //¿como hacer que botón funcione con enter?
 
     //boton cantidad
     this.bc = createButton('X');
-    this.bc.position(window.innerWidth/2-25, 300);
+    this.bc.position(window.innerWidth/2, 300);
     this.bc.show();
     this.bc.mousePressed(this.cantidad);
 
+    //ajusto posiciones ;)
+    this.updateInner();
 
-    //estos elementos html nativos van por fuera del canvas de p5js
+    //estos elementos html nativos van por fuera del canvas de p5js --> estan en DOM (junto a canvas)
   }
 
   cargar(){ //por alguna razon esta funcion funciona como global, no de la clase carga. ¿sea que la linea 18 la pre-carga?
@@ -33,17 +38,15 @@ class Carga {
     //1) guardo contenido del input en mi arreglo
     let aux = input.value();
     consigna[n] = aux;
-    //print( n + " load: " + consigna[n] );
 
     //2) paso siguiente id
-    //c++;  //--> aumento infinito de consignas? PENSAR SI SE JUSTIFICA
     if( n < c-1 ){ //--> si indice es menor a la cantidad de consignas
       n++;  //--> aumentar
     }else{
       n = 0;  //--> resetear
     }
 
-    //--> MUESTRO EN CAMPO DE TEXTO EL CONTENIDO DEL ARREGLO
+    //3) MUESTRO EN CAMPO DE TEXTO EL CONTENIDO DEL ARREGLO
     input.value(consigna[n]);
     if( consigna[n] == null )
       input.value('');
@@ -66,35 +69,33 @@ class Carga {
     // reset indice
     n = 0;
     // recorro arreglo y asigno valores
-    for( i = 0 ; i < c ; i++){
+    for( let i = 0 ; i < c ; i++){
       nRandom[i] = i ;
     }
-    // cambio texto del boton: no se la funcion ahah
-    //this.bc.text('12');
+  }
 
-    //return "ok";
+  updateInner(){
+    //posiciones y tamanios líquidos --> llamar en evento window.onresize
+    this.bc.position(window.innerWidth/2-((w-250)/2), 525);
+    input.position(window.innerWidth/2-((w-250)/2), 200);
+    input.size(w-250, 300);
+    this.button.position(window.innerWidth/2-((w-250)/2) + 70, 525);
   }
 
   update(){
-    //posiciones y tamanios líquidos --> capaz mas que draw()deberia ir en window.onresize
-    input.position(window.innerWidth/2-w/2 + 50, 250);
-    input.size(w-100, 30);
-    this.button.position(window.innerWidth/2-w/2 + 115, 300);
-    this.bc.position(window.innerWidth/2-w/2 + 50, 300);
-
     //muestro números de las consignas cargadas (para botonera)
     push();
     noStroke();
     for (let i = 0; i < c; i++) {
       //MOUSEOVER: circulo gris
-      if( dist(320 + (i * 30), 325, mouseX, mouseY) < 15 ){
+      if( dist(400 + (i * 30), 550, mouseX, mouseY) < 15 ){
         fill(cCeleste3);
-        rect(320 + (i * 30), 325, 30, 30 );
+        rect(400 + (i * 30), 550, 30, 30 );
       }
       //EDICIÍON ACTUAL: circulo rojo
       if( i == n ){
         fill( red(cAcento), green(cAcento), blue(cAcento), 200 );
-        rect(320 + (i * 30), 325, 30, 30 );
+        rect(400 + (i * 30), 550, 30, 30 );
       }
       //CONSIGNAS CARGADAS: negrita
       if( consigna[i] == null )
@@ -104,7 +105,7 @@ class Carga {
       fill(0);
       textSize(24);
       //text(i+1, window.innerWidth/2-w/2 + (i * 30), 315);
-      text(i+1, 320 + (i * 30), 325);
+      text(i+1, 400 + (i * 30), 550);
     }
     pop();
 
@@ -124,7 +125,7 @@ class Carga {
 
   mousePressed(){
     for (let i = 0; i < c; i++) {
-      if( dist(320 + (i * 30), 325, mouseX, mouseY) < 15 ){
+      if( dist(400 + (i * 30), 550, mouseX, mouseY) < 15 ){
         n = i;
         //--> MUESTRO EN CAMPO DE TEXTO EL CONTENIDO DEL ARREGLO
         input.value(consigna[n]);
@@ -133,6 +134,5 @@ class Carga {
       }
     }
   }
-
 
 }

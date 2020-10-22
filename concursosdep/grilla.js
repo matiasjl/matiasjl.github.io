@@ -1,15 +1,12 @@
 class Grilla {
 
   constructor() {
-    //this.c = c_;  //DESCARTADO: uso variable global 'c' directamenchi
     this.estado = "grilla";
 
     this.pYsobre = 0 ;
 
-    //identificadores claves
-    this.nSobre = 0; //guarda el numero de sobre clickeado (evento mousePressed de class sobre)
-    //lo siguiente ahora es simplemente 'n' global;
-    //this.nConsigna = 0; //PENSAR... sería el indice del arreglo --> EL arreglo que maneje las consignas > ¿URNA?
+    //guarda el numero de sobre clickeado (evento mousePressed de class sobre)
+    this.nSobre = 0;
 
     //arreglo de class Sobre
     this.sobres = [];
@@ -26,30 +23,16 @@ class Grilla {
     }
   }
 
-  //TRES CONDICIONES DE VISUALIZACIÓN (onda boostrap)
-  //mostrar en grilla liquida si es pantalla > ¿500/600?
-  //-poner limite de crecimiento en ¿1024? check
-  //si es menor en columna uno x uno (para celus)
   display() {
     //siempre dibujo la grilla
     this.update();
     this.grilla();
 
-    /*
-    if( this.estado == "grilla" ){
-
-    }else if( this.estado == "animacion" ){
-
-    }else */
+    //ejecuto el metodo que visualiza la consigna
     if (this.estado == "sobre") {
-      this.sobreAbierto(); // verificar como linkear valores --> ¿nSobre en índice consigna? --> RESUELTO
+      this.sobreAbierto();
     }
 
-    //this.s.display();
-
-    //test
-    //fill( 255, 0, 0 );
-    //ellipse( w/2, h/2, 100, 100 );
   }
 
   mousePressed() {
@@ -86,7 +69,7 @@ class Grilla {
 
   }
 
-  sobreAbierto() { // REVISAR TODAS LAS POSIONES --> !!!!
+  sobreAbierto() { // REVISAR TODAS LAS POSIONES --> TA OK
     //animacion  --> hacer con lerp
     if( this.pYsobre < h/4 ){
       this.pYsobre += 5;
@@ -145,9 +128,7 @@ class Grilla {
     textAlign(CENTER, CENTER);
     //text("#" + this.nSobre, w / 2, h / 2 + 300 + this.pYsobre); // --> clave
     text("#" + (this.nSobre+1), (w/2-400) + 800/7, h / 2 + 120 +  this.pYsobre); // --> clave
-
     pop();
-
   }
 
 }

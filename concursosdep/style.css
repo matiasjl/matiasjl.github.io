@@ -19,6 +19,7 @@ body {
   /* Fondo color celeste institucional */
   background-color: rgb(116, 201, 227);
 }
+/* -------------------------------------------------------- */
 button {
   background-color: rgb(131, 131, 131);
   border: none;
@@ -39,4 +40,9 @@ button:hover {
 button:active {
   background-color: black;
   color: white;
+}
+/* -------------------------------------------------------- */
+textarea{
+  font-family: sans-serif;
+  font-size: 12pt;
 }

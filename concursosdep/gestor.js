@@ -4,23 +4,6 @@ let n = 0;  //indice del arreglo
 let c = 12;  //cantidad de consignas
 let nRandom = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]; //para random.js
 
-/*
-function cantidad( v ){
-  // cantidad de consignas: 9 o 12
-  c = v;
-  // blanqueo arreglos
-  consigna = [];
-  nRandom = [];
-  // reset indice
-  n = 0;
-  // recorro arreglo y asigno valores
-  for( i = 0 ; i < v ; i++){
-    nRandom[i] = i ;
-  }
-  //return "ok";
-}
-*/
-
 class Gestor {
 
   constructor(){
@@ -31,9 +14,14 @@ class Gestor {
     //objetos por cada pantalla
     this.carga = new Carga();
     this.random = new Random();
-    this.grilla = new Grilla(); //asegurarse que sea adaptable (ya hablaron de una version de 12...) --> c --> HECHO :D
+    this.grilla = new Grilla();
 
+  }
 
+  updateInner(){
+    if( this.pantalla == "carga" ){
+      this.carga.updateInner();
+    }
   }
 
   update(){
@@ -84,34 +72,21 @@ class Gestor {
   }
 
   keys(){
-    //CAMBIO ENTRE PANTALLAS CON NÚMEROS  --> OLD BORRAR
-    /*
-    if( key == '1' ){
-      this.carga.display(true);
-      this.pantalla = "carga";
-    }else if( key == '2' ){
-      this.carga.display(false);
-      this.pantalla = "random";
-    }else if( key == '3' ){
-      this.carga.display(false);
-      this.pantalla = "grilla";
-    }
-    */
-    /*  //era para visualizar numeros pero mepa que chau
-    else if( key == 'm' || key == 'M' ){
-      this.gui = !this.gui;
-    }
-    */
-
-    //'M' mueve entre pantallas
-    if( key == 'm' || key == 'M' ){
+    //flechas mueven entre pantallas
+    if( keyCode == RIGHT_ARROW ){
       if( this.pantalla == "carga" ){
         this.carga.display(false);
         this.pantalla = "random";
       }else if( this.pantalla == "random" ){
         this.carga.display(false);
         this.pantalla = "grilla";
-      }else if( this.pantalla == "grilla" ){
+      }
+    }
+    if( keyCode == LEFT_ARROW ){
+      if( this.pantalla == "grilla" ){
+        this.carga.display(false);
+        this.pantalla = "random";
+      }else if( this.pantalla == "random" ){
         this.carga.display(true);
         this.pantalla = "carga";
       }
@@ -120,22 +95,6 @@ class Gestor {
   }
 
   mousePressed(){
-    //eventos del gestor: cambio de pantallas --> OLD BORRAR
-    /*
-    if( this.gui ){
-      if( dist(w/2-50, 200, mouseX, mouseY) < 15 ){
-        this.carga.display(true);
-        this.pantalla = "carga";
-      }else if( dist(w/2, 200, mouseX, mouseY) < 15 ){
-        this.carga.display(false);
-        this.pantalla = "random";
-      }else if( dist(w/2+50, 200, mouseX, mouseY) < 15 ){
-        this.carga.display(false);
-        this.pantalla = "grilla";
-      }
-    }
-    */
-
     //eventos propios de los objetos ~ pantallas
     if( this.pantalla == "carga" )
       this.carga.mousePressed();
@@ -143,7 +102,6 @@ class Gestor {
       this.grilla.mousePressed();
     if( this.pantalla == "random" )
       this.random.mousePressed();
-
   }
 
 }

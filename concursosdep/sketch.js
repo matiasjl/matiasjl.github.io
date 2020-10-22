@@ -1,6 +1,10 @@
-// CONFIG ~
-//let fSizeTitulo = 48;
-//let fSizeSubtitulo = 18;
+//---------------------------------------------
+// App para "Pruebas de Seleccion"
+// DEP ~ DGCyE ~ 2020
+//
+// Matias JL
+// matiasjl.github.com
+//---------------------------------------------
 
 // VARIABLES GLOBALES ~
 let g;
@@ -32,7 +36,7 @@ function draw() {
 function mousePressed() {
   g.mousePressed();
 }
-function keyTyped() {
+function keyPressed() {
   //print("keyTyped: " + key);
   g.keys();
 }
@@ -43,6 +47,7 @@ window.onresize = function() {
   h = window.innerHeight;
   sizeMinMax();
   canvas.size(w, h);
+  g.updateInner();
 }
 function sizeMinMax(){
   if( w < 800 )
@@ -53,19 +58,8 @@ function sizeMinMax(){
       h = 700;
 }
 
-function preload() {
-  // Ensure the .ttf or .otf font stored in the assets directory
-  // is loaded before setup() and draw() are called
-  //font = loadFont('assets/SourceSansPro-Regular.otf');
-  //FUENTE LA RESUELVO CON GFONTS EN INDEX
-  //(aunque si lo haría así tendría mas variantes)
-
-  //imgSobre = loadImage('assets/sobre.jpg');
-}
-
 //---------------------------------------------
 // FUNCIONES DE DIBUJO
-
 function contenedor(){
   background(cCeleste1);
   push();
@@ -86,7 +80,6 @@ function contenedor(){
   textStyle(BOLD);
   text("PRUEBAS DE SELECCIÓN", w / 2, 100);
   textSize(19);
-  //text("DIRECCIÓN PROVINCIAL DE EDUCACIÓN PRIMARIA | DGCyE | 2020", w / 2, 150);
   text("DIRECCIÓN GENERAL DE CULTURA Y EDUCACIÓN | PBA | 2020", w / 2, 140);
   pop();
 }
