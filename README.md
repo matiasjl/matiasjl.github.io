@@ -1,3 +1,3 @@
 ## Matias Jauregui Lorda | JL
 ### Portfolio académico y artístico
-#### Noviembre 2020
+#### Mayo 2020
