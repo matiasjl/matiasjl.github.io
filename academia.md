@@ -9,6 +9,7 @@
 * Docente en *“eARTcc, Escuela de Arte y Tecnología con Chicos”*, Extensión FdA 2017
 
 # Investigación
+* Investigador en Proyecto *“HCI y Nuevas Interfaces Aplicadas desde el Diseño Multimedial”*, FdA UNLP 2020-2021
 * Investigador en Proyecto *“Realidad Aumentada Aplicada”*, FdA UNLP 2018-2019
 * Colaborador en libro *"Invasión Generativa III"*, FdA UNLP 2018 [+info.](http://www.invasiongenerativa.ar/)
 
