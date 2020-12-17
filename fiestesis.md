@@ -9,4 +9,4 @@ Sizigia proviene del griego συζυγία que significa *reunión,* y en ast
 
 Al ingresar, el grupo de máximo 8 usuarios, que previamente descargaron la aplicación Tramontana en sus teléfonos celulares y se conectaron a la red WiFi denominada “ENTER2TRANCE”, se encuentra con una sala en penumbras con luz ultravioleta y melodías de bajas frecuencias que inundan la habitación. Mediante el recorrido del espacio y movimiento de sus cuerpos, sensado por la operación de *agitar* sus dispositivos móviles, el entorno cobra vida: las luces se vuelven blancas estroboscópicas y el ritmo escondido tras un filtro pasabajos hace su aparición; las pantallas de los celulares elevan el brillo al máximo y sus linternas parpadean. El groove resultante funciona como feedback y a la vez retroalimenta la operación de agitar, bailar y jugar por parte del público, acción colectiva que mantiene encendida la instalación.
 
-##### *[+info](http://sedici.unlp.edu.ar/handle/10915/109001) Investigación teórica que dio origen a la Obra.*
+*[+info](http://sedici.unlp.edu.ar/handle/10915/109001) Investigación teórica que dio origen a la Obra.*
