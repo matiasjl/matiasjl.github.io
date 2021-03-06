@@ -1,7 +1,8 @@
 # Docencia
 
-* Ayudante Graduado en Tecnología Multimedial 2, FdA UNLP 2018-2020
-* Ayudante Graduado en Tecnología Multimedial 1, FdA UNLP 2015-2020
+* Ayudante Graduado en Tecnología Multimedial 2, FdA UNLP 2018-2021
+* Ayudante Graduado en Tecnología Multimedial 1, FdA UNLP 2015-2021
+* Diseñador y Asesor en Tecnología, DPEP DGCyE PBA 2016-2018
 * Consultor y Tallerista sobre Arte y Tecnología, DEAr DGCyE 2016-2018
 * Tutor Virtual en *"Multimedia Escénica con Scratch"*, Campus ABC DFC DGCyE 2017-2018
 * Tallerista en *“Taller de DJ/VJ Interactivo”*, CCEBA 2017
