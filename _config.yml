@@ -2,4 +2,4 @@ theme: jekyll-theme-minimal
 gem "github-pages", group: :jekyll_plugins
 title: JL
 description: Matias Jauregui Lorda
-logo: https://picsum.photos/270/205.jpg
+logo: images/jl_logo.png
