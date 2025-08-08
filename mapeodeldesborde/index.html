@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapeo del Desborde - Entorno 3D Interactivo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000;
+            font-family: Arial, sans-serif;
+        }
+        
+        #container {
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            z-index: 100;
+            background: rgba(0,0,0,0.7);
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 18px;
+            z-index: 200;
+        }
+        
+        #instructions {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            background: rgba(0,0,0,0.7);
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 12px;
+            max-width: 300px;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    
+    <div id="loading">Cargando entorno 3D...</div>
+    
+    <div id="info" class="hidden">
+        <div>Objetos de audio: <span id="objectCount">0</span></div>
+        <div>Posición: <span id="position">0, 0, 0</span></div>
+        <div>FPS: <span id="fps">0</span></div>
+    </div>
+    
+    <div id="instructions" class="hidden">
+        <strong>Controles:</strong><br>
+        • WASD: Moverse<br>
+        • Mouse: Mirar alrededor<br>
+        • Click objeto: Pausar/Reanudar sonido<br>
+        • Espacio: Saltar<br>
+        • Shift: Correr<br>
+        • Q: Mostrar/Ocultar interfaz<br>
+        <em>Todos los audios inician automáticamente</em><br>
+        <button id="testAudio" style="margin-top: 10px;">🔊 Test Audio</button>
+    </div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+        }
+    }
+    </script>
+    
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
